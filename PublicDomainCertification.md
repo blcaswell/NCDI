@@ -1,3 +1,7 @@
 The material posted to this GitHub repository was prepared by U.S. Department of Agriculture employees as part of their official duties. Copyright protection under U.S. Copyright Law Title 17 U.S.C. § 105 is not available for such works.  Accordingly, there is no copyright to transfer.
 
-   
+All code is provided "AS IS", without warranty of any kind.  
+
+Any findings and conclusions in this repository are those of the authors and should not be construed to represent any official USDA or U.S. Government determination or policy.
+
+The U.S. Department of Agriculture prohibits discrimination in all its programs and activities on the basis of race, color, national origin, age, disability, and where applicable, sex, marital status, familial status, parental status, religion, sexual orientation, genetic information, political beliefs, reprisal, or because all or part of an individual's income is derived from any public assistance program. (Not all prohibited bases apply to all programs.) Persons with disabilities who require alternative means for communication of program information (Braille, large print, audiotape, etc.) should contact USDA's TARGET Center at (202) 720-2600 (voice and TDD). To file a complaint of discrimination, write to USDA, Director, Office of Civil Rights, 1400 Independence Avenue, S.W., Washington, D.C. 20250-9410, or call (800) 795-3272 (voice) or (202) 720-6382 (TDD). USDA is an equal opportunity provider and employer.
