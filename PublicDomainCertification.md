@@ -1,4 +1,4 @@
-The material posted to this GitHub repository was prepared by U.S. Department of Agriculture employees as part of their official duties. Copyright protection under U.S. Copyright Law Title 17 U.S.C. § 105 is not available for such works.  Accordingly, there is no copyright to transfer.  The material in this repository is in the public domain.
+The material posted to this GitHub repository was prepared by U.S. Department of Agriculture employees as part of their official duties. Copyright protection under U.S. Copyright Law Title 17 U.S.C. § 105 is not available for such works.  Accordingly, there is no copyright to transfer.  The code provided in this repository is in the public domain.
 
 All code is provided "AS IS", without warranty of any kind.  
 
