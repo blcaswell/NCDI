@@ -22,22 +22,25 @@ These versions of ASA24 assign food codes from FNDDS 4.1 and FNDDS 2011-2012, re
 The sample code completes four steps to construct NCDI from FNDDS-coded 24-hour recall data as described by Gersten et al. (2025).
 
 ## Step 1: Create Nutrient Trait Matrix
-Create a nutrient trait matrix, similar to a food composition table, in which each row is a food item or ingredient, and each column contains a value for its nutrient content
-  1a. Disaggregate mixed food items to their ingredients using the SR recipes data
-  1b. Remove ingredients without nutrient values
-  1c. Repeat for all versions of FNDDS used and append disaggregated datasets
-  1d.	Mean-standardize all values by nutrient
+Create a nutrient trait matrix, similar to a food composition table, in which each row is a food item or ingredient, and each column contains a value for its nutrient content\
+	    1a. Disaggregate mixed food items to their ingredients using the SR recipes data\
+	    1b. Remove ingredients without nutrient values\
+	    1c. Repeat for all versions of FNDDS used and append disaggregated datasets\
+	    1d. Mean-standardize all values by nutrient\
 
 ## Step 2: Calculate Distance Matrix
-  Calculate Euclidean distances for all pairs of food items or ingredients in the nutrient trait matrix.  The Euclidean distance ($D$) between foods $i$ and $j$ is calculated as:
+Calculate Euclidean distances for all pairs of food items or ingredients in the nutrient trait matrix.  The Euclidean distance ($D$) between foods $i$ and $j$ is calculated as:
 
 $$\ D_{i,j} = \sqrt{\sum_{i=1}\^{n} (i_x - j_x)\^2} \$$
 
 where $x$ is a nutrient in the nutrient trait matrix and $n$ is the total number of nutrients in the nutrient trait matrix.
-  
-3.) Use hierarchical clustering to arrange food items and ingredients in a dendrogram and calculate the total vertical branch lengths (Figure 1A)
-4.) Use the dendrogram to score individual diets by summing the vertical branch lengths to the common node (Figure 1B).
-	Disaggregate mixed food items and remove non-nutritive items
-	Create binary variables indicating the food items or ingredients reported in each dietary recall
-	Calculate sum of branch lengths connecting foods in each individual’s diet
-	Divide each individual’s summed branch lengths by the summed branch lengths of the total dendrogram
+
+## Step 3: Create Dendrogram
+Use hierarchical clustering to arrange food items and ingredients in a dendrogram and calculate the total vertical branch lengths
+
+## Step 4: Score individual diets 
+Use the dendrogram to score individual diets by summing the vertical branch lengths to the common node\
+	    4a. Disaggregate mixed food items and remove non-nutritive items\
+	    4b. Create binary variables indicating the food items or ingredients reported in each dietary recall\
+	    4c. Calculate sum of branch lengths connecting foods in each individual’s diet\
+	    4d. Divide each individual’s summed branch lengths by the summed branch lengths of the total dendrogram
