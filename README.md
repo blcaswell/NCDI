@@ -9,10 +9,12 @@ This repository provides sample code for calculating the Nutrient Composition Di
 ## Software
 - R
 - Stata
+- 7zip and either Microsoft Access or mechanism for transferring .ascii or .sas7bdat files to Stata (for opening and importing USDA Food Composition Database files)
 
   
 ## USDA Food Composition Databases
 -   Food and Nutrient Database for Dietary Studies (FNDDS), versions 4.1 and 2011-2012, publicly available at https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/food-surveys-research-group/docs/fndds-download-databases/
+    - From the database download package, the required tables are mainfooddesc and fnddssrlinks
 -   USDA National Nutrient Database for Standard Reference (SR), Release 22 and Release 23, publicly available at https://www.ars.usda.gov/northeast-area/beltsville-md-bhnrc/beltsville-human-nutrition-research-center/methods-and-application-of-food-composition-laboratory/mafcl-site-pages/sr11-sr28/
 
 ## Dietary intake data
