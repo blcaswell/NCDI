@@ -30,11 +30,10 @@ Create a nutrient trait matrix, similar to a food composition table, in which ea
 
 **1.1.** Disaggregate mixed food items to their ingredients using SR recipes data
 
-**1.2.** Remove ingredients without nutrient values
+**1.2.** Repeat for all versions of FNDDS used 
 
-**1.3.** Repeat for all versions of FNDDS used and append disaggregated datasets
+**1.3.** Append the disaggregated food composition tables into a single nutrient trait matrix
 
-**1.4.** Mean-standardize all values by nutrient
 
 
 
