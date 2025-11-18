@@ -27,10 +27,14 @@ The sample code completes four steps to construct NCDI from FNDDS-coded 24-hour 
 
 ## Step 1: Create Nutrient Trait Matrix
 Create a nutrient trait matrix, similar to a food composition table, in which each row is a food item or ingredient, and each column contains a value for its nutrient content.  
-1. Disaggregate mixed food items to their ingredients using SR recipes data
-2. Remove ingredients without nutrient values
-3. Repeat for all versions of FNDDS used and append disaggregated datasets
-4. Mean-standardize all values by nutrient
+
+**1.1.** Disaggregate mixed food items to their ingredients using SR recipes data
+
+**1.2.** Remove ingredients without nutrient values
+
+**1.3.** Repeat for all versions of FNDDS used and append disaggregated datasets
+
+**1.4.** Mean-standardize all values by nutrient
 
 
 
@@ -48,16 +52,12 @@ Use hierarchical clustering to arrange food items and ingredients in a dendrogra
 
 ## Step 4: Score individual diets 
 Use the dendrogram to score individual diets by summing the vertical branch lengths to the common node.  
-1. Disaggregate mixed food items and remove non-nutritive items
-2. Create binary variables indicating the food items or ingredients reported in each dietary recall
-3. Calculate sum of branch lengths connecting foods in each individual’s diet
-4. Divide each individual’s summed branch lengths by the summed branch lengths of the total dendrogram
 
+**4.1.** Disaggregate mixed food items and remove non-nutritive items
 
-# Procedure in Detail
-Files from the USDA FFNDS and SR databases are needed to run the following steps.  Please confirm that you have downloaded and extracted the files listed above under "USDA Food Composition Databases" before proceeding.  All Stata sample code below assumes these files are already converted to .dta format.
+**4.2.** Create binary variables indicating the food items or ingredients reported in each dietary recall
 
-## Step 1: Create Nutrient Trait Matrix
-### Step 1a: Disaggregate mixed food items in the FNDDS food composition table to their ingredients using SR recipes data
-1a.1: Transpose the SR food composition data file (nut_data) from long to wide.  See sample code FL100_FNDDS2012_IngredientNutrients_20240505.do.  Note that for this sample code, the SR23 nut_data file was renamed srnutval.
-1a.2: 
+**4.3.** Calculate sum of branch lengths connecting foods in each individual’s diet
+
+**4.4.** Divide each individual’s summed branch lengths by the summed branch lengths of the total dendrogram
+
