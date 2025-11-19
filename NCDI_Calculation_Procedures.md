@@ -1,4 +1,4 @@
-# NCDI Procedure in Detail
+# NCDI Calculation Procedures
 
 This document describes the procedures for calculating the Nutrient Composition Diversity Index (NCDI) using ASA24-2014 and ASA24-2016 data.  Similar procedures can be used for other detailed dietary intake data by adapting the sample code.  Refer to the [README](/README.md) for an overview of the procedure and required resources.
 
