@@ -5,17 +5,14 @@ Bess L. Caswell, November 2025
 ## Summary
 This directory provides the instructions and scripts for calculating the Nutrient Composition Diversity Index (NCDI) from 24-hour recall dietary intake data. The full methodology is described in: 
 
-Development of a Nutrient Diversity Metric and Its Convergent Validity With Dietary Quality in a Sample of Healthy US Adults
-This repository provides sample code for calculating the Nutrient Composition Diversity Index (NCDI) from 24-hour recall data.  The procedures are described in:
-  > Gersten ZP, Wilson SMG, Larke JA, Lemay DG and Caswell BL. (2025) Development of a Nutrient Diversity Metric and Its Convergent Validity With Dietary Quality in a Sample of Healthy US Adults. Current Developments in Nutrition.
-> 
-> https://doi.org/10.1016/j.cdnut.2025.107029
+> Gersten ZP, Wilson SMG, Larke JA, Lemay DG and Caswell BL. (2025) Development of a Nutrient Diversity Metric and Its Convergent Validity With Dietary Quality in a Sample of Healthy US Adults. Current Developments in Nutrition. https://doi.org/10.1016/j.cdnut.2025.107029. 
 
 ## Required Software
 
 - StataSE 17 (or newer)
 - R 4.4.1 (or newer)
 - RStudio '2024.09.0+494' (or newer)
+- SAS
 
 ## Required Files
 
